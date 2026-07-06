@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My first html page - JSP</title>
+</head>
+<body>
+	My first html page with body
+</body>
+</html>
