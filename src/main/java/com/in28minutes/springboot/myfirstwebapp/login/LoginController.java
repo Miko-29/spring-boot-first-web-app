@@ -26,7 +26,6 @@ public class LoginController {
 
 		if (authenticationService.authenticate(name, password)) {
 			model.put("name", name);
-			model.put("password", password);
 
 			// Authentication
 			// name - in28minutes
