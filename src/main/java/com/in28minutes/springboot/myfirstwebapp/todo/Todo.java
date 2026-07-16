@@ -39,6 +39,12 @@ public class Todo {
 		return description;
 	}
 
+	@Override
+	public String toString() {
+		return "Todo [id=" + id + ", username=" + username + ", description=" + description + ", targetDate="
+				+ targetDate + ", done=" + done + "]";
+	}
+
 	public void setDescription(String description) {
 		this.description = description;
 	}
