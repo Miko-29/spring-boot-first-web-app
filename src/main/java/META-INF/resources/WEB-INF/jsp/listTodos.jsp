@@ -16,7 +16,7 @@
       </h1>
 
       <a href="<c:url value='/add-todo' />"
-        class="bg-blue-600 hover:bg-blue-700 text-white font-medium
+        class="bg-green-600 hover:bg-green-700 text-white font-medium
                rounded-lg px-4 py-2 text-sm transition">
         + Add Todo
       </a>
@@ -30,6 +30,8 @@
             <th class="text-left px-4 py-3">Description</th>
             <th class="text-left px-4 py-3">Target Date</th>
             <th class="text-left px-4 py-3">Status</th>
+            <th class="text-left px-4 py-3"></th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
@@ -48,6 +50,10 @@
                   </c:otherwise>
                 </c:choose>
               </td>
+              <td><a href="delete-todo?id=${todo.id}" class="bg-red-600 hover:bg-red-700 text-white font-medium
+               rounded-lg px-4 py-2 text-sm transition">DELETE</a></td>
+               <td><a href="update-todo?id=${todo.id}" class="bg-blue-600 hover:bg-blue-700 text-white font-medium
+               rounded-lg px-4 py-2 text-sm transition">UPDATE</a></td>
             </tr>
           </c:forEach>
         </tbody>
