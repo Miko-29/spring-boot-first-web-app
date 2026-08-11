@@ -1,0 +1,18 @@
+<nav class="flex items-center justify-between bg-white border-b border-gray-200 px-4 py-3 mb-6">
+
+  <a href="https://courses.in28minutes.com"
+    class="text-lg font-semibold text-gray-800 hover:text-blue-600 transition">
+    in28Minutes
+  </a>
+
+  <div class="flex items-center gap-8">
+    <a href="/" class="text-sm text-gray-600 hover:text-blue-600 transition">Home</a>
+    <a href="/list-todos" class="text-sm text-gray-600 hover:text-blue-600 transition">Todos</a>
+  </div>
+
+  <a href="/logout"
+    class="text-sm text-gray-600 hover:text-red-600 transition">
+    Logout
+  </a>
+
+</nav>
